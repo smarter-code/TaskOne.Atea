@@ -1,0 +1,15 @@
+#Potential Improvements
+1- Use paging when retrieving logs in order to limit returned payload size
+2- Add IaaC (Terraform/Bicep/ARM) to automate infra. creation
+3- Write integration and unit tests to increase resiliency
+4- CI/CD pipelines
+5- Use GitHub codespaces to automatically create cloud development environment for other developers (if the project security allows)
+6- Store configs in AppConfig and Secrets to KeyVault
+7- Use permissions limited SAS token to access the storage account
+8- Authenticate the API and the Azure Function using MSI against AppConfig and KeyVault
+9- Add application insights monitoring
+10- Refactor logic in the controllers/Azure functions to a MediatR service layer to reduce platform coupling and enable logic reuse somewhere else
+11- Separate repos and services into different class libraries
+
+#Challenges
+1- Choose a good partion key/row key to store the log data for efficent querying

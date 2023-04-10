@@ -1,0 +1,10 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {}
+  },
+  "libraries": {}
+}
